@@ -10,7 +10,7 @@ function scuberGreetingForFeet(feet) {
       return 'I will gladly take your thirty bucks.'
        
     case 2501:
-      
+
        return 'No can do.';
        default:
       break; 
@@ -31,11 +31,16 @@ function ternaryCheckCity(city) {
 function switchOnCharmFromTip(tip) {
   // Write your code
 
-  if (tip === "generous") {
+switch (tip) {
+  case "generous":
     return "Thank you so much.";
-  } else if (tip === "not as generous") {
+    
+  case "not as generous":
     return "Thank you.";
-  } else {
+
+  default:
     return "Bye.";
-  }
+
+}
+
 }
